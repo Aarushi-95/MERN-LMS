@@ -29,7 +29,7 @@ app.use(
 app.use(express.json());
 
 mongoose
-    .connect(MONGO_URI)
+    .connect("mongodb+srv://agarwalaarushi95:sweety829@cluster0.u12ih.mongodb.net/")
     .then(() => console.log('mongodb is connected'))
     .catch((e) => console.log(e));
 
